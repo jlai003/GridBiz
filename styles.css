@@ -6,6 +6,8 @@
     --shadow:   0 5px 15px rgba(104,104,104, 0.8);
 }
 html {
+    display: flex;
+    justify-content:   center;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
