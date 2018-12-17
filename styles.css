@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* CSS Variables */
 :root {
     --primary: #ddd;
@@ -266,7 +265,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    box-shadow: var(--shadow); 
+    box-shadow: var(--shadow);
 }
 .top-box-a {
     grid-area:  top-box-a;
