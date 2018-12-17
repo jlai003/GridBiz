@@ -15,6 +15,10 @@ body {
     margin: 30px 50px;
     line-height: 1.4;
 }
+.scroll {
+  overflow-y: auto;
+  height: 500px;
+}
 .grow > img { transition: all .2s ease-in-out; }
 .grow > img:hover { transform: scale(1.1); }
 
@@ -72,6 +76,7 @@ img {
     background-position: center;
     padding: 3rem;
     display: flex;
+    margin-bottom: auto;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -94,7 +99,8 @@ img {
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
-    box-shadow: var(--shadow); 
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
 }
 .top-box-a {
     grid-area:  top-box-a;
