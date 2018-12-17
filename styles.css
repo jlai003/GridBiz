@@ -199,9 +199,10 @@ body {
 img {
     max-width: 100%;
 }
-.wrapper {
-    display: grid;
-    grid-gap: 20px;
+/* .wrapper { */
+  /* border: 1px solid blue; */
+    /* display: grid; */
+    /* grid-gap: 20px; */
 
 }
 /* Navigation */
